@@ -2,7 +2,7 @@
   "title": "Forge reproduction package T5: 2*atan(u) on an Arty A7-100T, every input checked against a certified error bound",
   "upload_type": "software",
   "description": "One function on one FPGA, and every input its certificate covers: for each of the 26,211 Q10.16 inputs of camera_fov_t5's declared domain, the part's answer is within Forge's certified error bound of 2*atan(u). The package carries the claim, the kernel's source, the program's Verilog and its library closure, a testbench, the certificate and its Lean, the bitstream, the inputs sent and the part's answers, the bench record, and the scripts that check it at three tiers (LOCAL: Python and mpmath; TOOLCHAIN: Verilator and Lean with MachLib; REPLAY: the board).",
-  "creators": [{"name": "Monogate Research"}],
+  "creators": [{"name": "Almaguer, Arturo", "affiliation": "Mosa Creates LLC"}],
   "license": "MIT",
   "keywords": ["FPGA", "fixed-point", "error bound", "certificate", "reproducibility", "Lean", "Verilator", "Artix-7"]
 }
