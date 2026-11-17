@@ -23,10 +23,10 @@ SOFTWARE.
 ---
 
 Note: While this implementation is licensed under MIT, specific algorithmic
-methods used by Monogate Forge are covered by patents held by Monogate Research
-(see `patents/index.md`). The MIT license grants you the right to use, modify,
-and distribute THIS implementation. Independent re-implementations of patented
-methods may require licensing — contact the project maintainers for details.
+methods used by Monogate Forge are the subject of filed patent applications.
+The MIT license grants you the right to use, modify, and distribute THIS
+implementation. Independent re-implementations of those methods may require
+licensing — contact the project maintainers for details.
 
 This is the same model used by GCC + the x86 instruction set: the compiler
 is open, but specific microarchitectural techniques may be patented.
